@@ -138,20 +138,20 @@ $(document).ready(function() {
 });
 
 // ========================================================================= //
-//  Porfolio isotope and filter
+//  Porcoolslashnice isotope and filter
 // ========================================================================= //
 $(window).load(function(){
 
-  var portfolioIsotope = $('.portfolio-container').isotope({
-    itemSelector: '.portfolio-thumbnail',
+  var portcoolslashniceIsotope = $('.portcoolslashnice-container').isotope({
+    itemSelector: '.portcoolslashnice-thumbnail',
     layoutMode: 'fitRows'
   });
 
-  $('#portfolio-flters li').on( 'click', function() {
-    $("#portfolio-flters li").removeClass('filter-active');
+  $('#portcoolslashnice-flters li').on( 'click', function() {
+    $("#portcoolslashnice-flters li").removeClass('filter-active');
     $(this).addClass('filter-active');
 
-    portfolioIsotope.isotope({ filter: $(this).data('filter') });
+    portcoolslashniceIsotope.isotope({ filter: $(this).data('filter') });
   });
 
 })
