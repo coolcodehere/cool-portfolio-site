@@ -1,7 +1,7 @@
 
 /*
   Theme Name: coolslashnice
-  Theme URL: https://bootstrapmade.com/coolslashnice-bootstrap-portcoolslashnice-template/
+  Theme URL: https://bootstrapmade.com/coolslashnice-bootstrap-portfolio-template/
   Author: BootstrapMade.com
   Author URL: https://bootstrapmade.com
 */
@@ -388,24 +388,24 @@ nav ul li a {
 
 
 /*-----------------------------------------------------------------------------------*/
-/*  Portcoolslashnice
+/*  portfolio
 /*-----------------------------------------------------------------------------------*/
 
-#portcoolslashnice {
+#portfolio {
   position: relative;
   padding-bottom: 50px;
 }
 
-#portcoolslashnice .portcoolslashnice-list {
+#portfolio .portfolio-list {
   margin-bottom: 50px;
 }
 
-#portcoolslashnice .portcoolslashnice-list .nav {
+#portfolio .portfolio-list .nav {
   display: inline-block;
   margin: 0;
 }
 
-#portcoolslashnice .portcoolslashnice-list .nav li {
+#portfolio .portfolio-list .nav li {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
@@ -423,7 +423,7 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portcoolslashnice .portcoolslashnice-list .nav li:hover, #portcoolslashnice .portcoolslashnice-list .nav li.filter-active  {
+#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -432,19 +432,19 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portcoolslashnice .portcoolslashnice-container {
+#portfolio .portfolio-container {
   display: inline-block;
   margin-bottom: 50px;
   width: 100%;
 }
 
-.portcoolslashnice-thumbnail {
+.portfolio-thumbnail {
   margin-bottom: 30px;
   overflow: hidden;
   min-height: 260px;
 }
 
-.portcoolslashnice-thumbnail img {
+.portfolio-thumbnail img {
   max-width: 100%;
 }
 

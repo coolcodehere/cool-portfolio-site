@@ -142,16 +142,16 @@ $(document).ready(function() {
 // ========================================================================= //
 $(window).load(function(){
 
-  var portcoolslashniceIsotope = $('.portcoolslashnice-container').isotope({
-    itemSelector: '.portcoolslashnice-thumbnail',
+  var portfolioIsotope = $('.portfolio-container').isotope({
+    itemSelector: '.portfolio-thumbnail',
     layoutMode: 'fitRows'
   });
 
-  $('#portcoolslashnice-flters li').on( 'click', function() {
-    $("#portcoolslashnice-flters li").removeClass('filter-active');
+  $('#portfolio-flters li').on( 'click', function() {
+    $("#portfolio-flters li").removeClass('filter-active');
     $(this).addClass('filter-active');
 
-    portcoolslashniceIsotope.isotope({ filter: $(this).data('filter') });
+    portfolioIsotope.isotope({ filter: $(this).data('filter') });
   });
 
 })
